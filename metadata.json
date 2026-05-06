@@ -1,0 +1,5 @@
+{
+  "name": "RAM: Logic Gates Lab AI V2.04",
+  "description": "An interactive digital logic simulator featuring advanced XY RGB Screen simulations, support for 7400/4000 series ICs, custom blocks, and high-level circuit examples like the TD-7000 Radio Receiver.",
+  "requestFramePermissions": []
+}

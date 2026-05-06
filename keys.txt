@@ -1,0 +1,174 @@
+4:  'Basic AND Gate': {
+19:  '74138 Decoder Demo': {
+45:  '74151 8-to-1 Mux': {
+62:  '4017 LED Chaser': {
+75:  'JK Flip-Flop Counter': {
+99:  'D Flip-Flop Shift Register': {
+118:  'MCU Binary Counter': {
+131:  '4-Digit Multiplexed Counter': {
+148:  'Buzzer & Motor Alarm': {
+162:  'Elevator Control 4-Levels': {
+246:  '74161 Binary Counter Demo': {
+270:  '74153 Dual 4-to-1 Mux': {
+285:  '4001 CMOS NOR Demo': {
+300:  '4011 CMOS NAND Demo': {
+315:  'Advanced Traffic Light': {
+345:  'Digital Clock System': {
+363:  '4066 Quad Bilateral Switch': {
+378:  'MCU Serial to Parallel': {
+393:  'MCU Temperature Monitor': {
+408:  '74LS Series Counter': {
+443:  '74LS Digital Clock': {
+471:  '555 Astable: LED Blinker': {
+483:  '555 Astable: Fast Pulse + Scope': {
+494:  '555 Astable: 8-Bit Shift Register': {
+516:  '555 SR Latch: Start/Stop Control': {
+533:  'Gate-Level SR Flip-Flop': {
+553:  'Gate-Level D Latch': {
+579:  'Gate-Level D Flip-Flop': {
+621:  'Gate-Level JK Flip-Flop': {
+648:  'Gate-Level T Flip-Flop': {
+674:  '7400 Series IC Tester': {
+796:  'MCU 4-Digit Display Controller': {
+811:  'MCU Smart Security System': {
+828:  'MCU Mood Light Controller': {
+843:  'MCU Motor Speed Monitor': {
+858:  'MCU Multi-Gate Logic Lab': {
+875:  'Hexadecimal Up-Counter': {
+891:  'Decade Counter (0-9)': {
+929:  'Priority Encoder Lab': {
+955:  'ALU Arithmetic Lab': {
+971:  'Shift Register Monitor': {
+990:  'Logic Lab: AND Family': {
+1016:  'Logic Lab: OR Family': {
+1041:  'Logic Lab: Universal Gates': {
+1062:  'Logic Lab: Exclusive Gates': {
+1084:  'Logic Lab: Inverters & Buffers': {
+1101:  '7408: Basic AND Logic': {
+1116:  '7408: 3-Input AND Gate': {
+1134:  '7408: Quad AND Tester': {
+1160:  '7400: Basic NAND Logic': {
+1175:  '7400: NAND as Inverter': {
+1189:  '7400: SR Latch (NAND)': {
+1208:  '7432: Basic OR Logic': {
+1223:  '7432: 3-Input OR Gate': {
+1241:  '7432: Quad OR Tester': {
+1266:  '7402: Basic NOR Logic': {
+1281:  '7402: NOR SR Latch': {
+1300:  '7402: NOR as Inverter': {
+1314:  '7486: Basic XOR Logic': {
+1329:  '7486: Controlled Inverter': {
+1344:  '7486: Parity Bit Generator': {
+1362:  '7404: Basic NOT Logic': {
+1375:  '7404: Hex NOT Tester': {
+1403:  '7404: Cascaded NOT (Buffer)': {
+1419:  'Reloj Digital 74Ls93': {
+1512:  'Digital Clock': {
+1620:  '74LS47: BCD to 7-Segment Decoder': {
+1641:  '74LS93 & 74LS47: Decade Counter (0-9)': {
+1663:  'BCD to 7-Segment Decoder (Schematic)': {
+1801:  'Countdown (9-0)': {
+1825:  'Binary Counter (0-15)': {
+1846:  'Decade Counter (0-99)': {
+1892:  'Decade Counter (0-99) Alt': {
+1935:  '74161: Basic 4-Bit Counter': {
+1960:  '74161: Modulo-10 Counter': {
+1985:  '74138: 3-to-8 Decoder Demo': {
+2008:  '74138: 2-to-4 Decoder': {
+2030:  '74153: Dual 4-to-1 Mux Demo': {
+2050:  '74153: XOR Implementation': {
+2073:  '74HC595: 8-Bit Serial-to-Parallel': {
+2095:  '74HC595: Running Light': {
+2117:  'Transistor Switch (NPN)': {
+2136:  'Relay Control Circuit': {
+2156:  'Potentiometer Control': {
+2172:  'NPN Transistor LED Driver': {
+2192:  'PNP Transistor Switch': {
+2212:  'Relay Self-Latching': {
+2232:  'DC Motor with Flyback Diode': {
+2249:  'Voltage Divider with Potentiometer': {
+2263:  'Transistor AND Gate (Discrete)': {
+2283:  'Transistor OR Gate (Discrete)': {
+2305:  'Battery Charger Indicator': {
+2323:  'Emergency Light Circuit': {
+2339:  'Oscilloscope: Sine & Square': {
+2352:  'Comparator Monitoring': {
+2367:  '4-Bit Adder Monitor': {
+2389:  'MOSFET Switch Circuit': {
+2403:  'Control Blocks Demo': {
+2422:  'Pocket Pager Circuit': {
+2501:  '555 & 7490 Counter (0-9)': {
+2543:  '555 & Dual 7490 (0-99)': {
+2609:  '555 & 74193 Hex Counter': {
+2651:  '555 Digital Clock (MM:SS)': {
+2703:  '555 & 74192 Countdown': {
+2743:  '74160 Decade Counter Demo': {
+2793:  '74160 & 7448: Decade Counter with Mux Monitoring': {
+2861:  '7493 & 7447: Binary Counter with Dual Mux Selection': {
+2907:  'Flip-Flop Lab: Edge Triggering': {
+2929:  'Flip-Flop: 4-Bit Binary Counter': {
+2951:  'Latch Lab: Level Sensitivity': {
+2969:  'Latch: Active-Low SR Memory': {
+2986:  'Advanced Display Lab': {
+3008:  'Multi-Segment Display Demo': {
+3025:  'Dot Matrix & 16-Seg Pattern': {
+3043:  '8-Seg Counter (7490+7447)': {
+3062:  '8-Seg Shift Register': {
+3078:  '8-Seg MCU Driver': {
+3089:  '9-Seg MCU Alphanumeric': {
+3100:  '9-Seg Shift Register': {
+3114:  '9-Seg Logic Pattern': {
+3130:  '14-Seg MCU Message': {
+3141:  '14-Seg Dual Shift Register': {
+3159:  '14-Seg Logic Decoder': {
+3172:  'Dot Matrix 4017 Scanner': {
+3186:  'Dot Matrix MCU Pattern': {
+3197:  'Dot Matrix Shift Drive': {
+3211:  '16-Seg MCU Alphanumeric': {
+3222:  '16-Seg Dual Shift Register': {
+3240:  '16-Seg Logic Pattern': {
+3256:  'PWM LED Dimmer': {
+3271:  'Summing Amplifier': {
+3292:  'Bridge Rectifier Demo': {
+3309:  'Darlington Motor Driver': {
+3327:  'LDR Light Switch': {
+3350:  'Summing Control Block': {
+3365:  'Multiplication Block': {
+3380:  'Zener Voltage Regulator': {
+3398:  'VCO: Voltage Controlled Oscillator': {
+3416:  'LGT8F328P: Fast PWM Demo': {
+3427:  'LGT8F328P: Internal DAC Output': {
+3438:  'ATmega16: 8-Bit Port Counter': {
+3452:  'ATmega16: External Interrupt Lab': {
+3465:  'ATtiny85: Compact Blink': {
+3476:  'ATtiny85: PWM Dimmer': {
+3489:  'PIC18F2520: ADC Reading': {
+3502:  'PIC18F2520: SPI Communication': {
+3515:  'ESP32: Dual Core Tasking': {
+3528:  'ESP32: Wi-Fi Status Monitor': {
+3539:  'RP2040: Dual Core Blink': {
+3552:  'RP2040: PIO State Machine Demo': {
+3563:  'TD-7000 Radio Receiver': {
+3607:  '16-Seg Numbers': {
+3642:  '16-Seg A-D': {
+3686:  '16-Seg E-H': {
+3725:  '16-Seg I-L': {
+3758:  '16-Seg M-P': {
+3798:  '16-Seg Q-T': {
+3840:  '16-Seg U-X': {
+3873:  '16-Seg Y-Z': {
+3915:  '16-Seg Symbols': {
+3978:  'Traffic Light Controller (Modular)': {
+4031:  'Sumador 4-Bits Anidado': {
+4119:  'Contador Modulo-16 (Bloques JK)': {
+4163:  'Registrador PISO 4-Bits': {
+4205:  'Comparador de 4-Bits Modular': {
+4238:  '74181: 4-Bit Adder/Subtractor': {
+4257:  '74181: Logical unit (AND/OR/XOR)': {
+4276:  '74181: Magnitude Comparator (A=B)': {
+4291:  'Elevador 4 Niveles (Bloque)': {
+4322:  'Tic-Tac-Toe Game (Bloque)': {
+4345:  'Substractor de 2 Números (Bloque)': {
+4371:  '7-Seg to 4-Bit Decoder (Bloque)': {
+4389:  'Gate Level ALU 74181': {
+4477:  'Dice Simulator (Bloque)': {

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-dk-dark-bg: #313348;
+  --color-dk-darker-bg: #2a2b3d;
+  --color-navbar-bg: #6f6486;
+  --color-sidebar-bg: #252636;
+
+  --breakpoint-xs: 480px;
+}
+
+:root {
+  --sidebar-width: 260px;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-dk-darker-bg);
+  color: #e5e7eb;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3c3f58;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b4e6d;
+}
+
+@utility no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
