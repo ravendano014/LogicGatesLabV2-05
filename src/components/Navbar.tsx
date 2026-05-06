@@ -84,6 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({
           <NavButton onClick={() => onAction('new')} icon={<PlusSquare className="w-4 h-4" />} tooltip="New Circuit" />
           <NavButton onClick={() => onAction('load')} icon={<FileUp className="w-4 h-4" />} tooltip="Load JSON" />
           <NavButton onClick={() => onAction('import-logisim')} icon={<FileUp className="w-4 h-4 text-blue-400" />} tooltip="Import Logisim (.circ)" />
+          <NavButton onClick={() => onAction('import-dls')} icon={<FileUp className="w-4 h-4 text-yellow-400" />} tooltip="Import DLS (.json)" />
           <NavButton onClick={() => onAction('save')} icon={<FileDown className="w-4 h-4" />} tooltip="Save JSON" />
         </div>
 

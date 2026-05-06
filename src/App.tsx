@@ -8,6 +8,7 @@ import { generateRandomCircuit } from './services/aiService';
 import { EXAMPLES, LIBRARY_BLOCKS } from './examples';
 import { createShape } from './lib/circuitUtils';
 import { parseLogisimCirc } from './lib/logisimImporter';
+import { parseDLSCirc } from './lib/dlsImporter';
 import { INPUT_CONTROL_TYPES, OUTPUT_CONTROL_TYPES } from './constants';
 import { Cpu, PlusSquare, Scissors, Plus, X, Layers, Undo, Redo } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -3085,6 +3086,55 @@ export default function App() {
           reader.readAsText(file);
         };
         input.click();
+        break;
+      case 'import-dls':
+        const dlsInput = document.createElement('input');
+        dlsInput.type = 'file';
+        dlsInput.accept = '.json';
+        dlsInput.onchange = (e: any) => {
+          const file = e.target.files[0];
+          const reader = new FileReader();
+          reader.onload = (re) => {
+            try {
+              const jsonString = re.target?.result as string;
+              const { shapes: importedShapes, connectors: importedConnectors } = parseDLSCirc(jsonString);
+              
+              const idMap: Record<string, string> = {};
+              const getNewId = generateId;
+              
+              const newShapes = importedShapes.map(s => {
+                const newId = getNewId();
+                idMap[s.id] = newId;
+                return { ...s, id: newId, isSelected: true };
+              });
+              
+              const newConnectors = importedConnectors.map(c => ({
+                ...c,
+                id: getNewId(),
+                startShapeId: idMap[c.startShapeId] || c.startShapeId,
+                endShapeId: idMap[c.endShapeId] || c.endShapeId,
+                isSelected: true
+              }));
+
+              setShapes(prev => [
+                ...prev.map(s => ({ ...s, isSelected: false })),
+                ...newShapes
+              ]);
+              setConnectors(prev => [
+                ...prev.map(c => ({ ...c, isSelected: false })),
+                ...newConnectors
+              ]);
+              
+              setFileName(file.name.replace('.json', ''));
+              saveHistory();
+            } catch (error) {
+              console.error("Error importing DLS file:", error);
+              alert("Error importing DLS file. Please check the file format.");
+            }
+          };
+          reader.readAsText(file);
+        };
+        dlsInput.click();
         break;
       case 'import-logisim':
         const circInput = document.createElement('input');
